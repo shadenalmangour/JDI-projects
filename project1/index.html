@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no ">
+    <title>Rock-Paper-Scissor Game</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="shortcut icon" href="#">
+</head>
+<body>
+
+
+    <header>
+        <h1>Rock Paper Scissor Game</h1>
+
+    </header>
+    <div class="container">
+       <div>
+        <h2>Player</h2>
+        <button class="buttons" id="btn-paper" value="paper"><img  src="images/paper-h.png" alt="paper-hand"></button>  
+        <button class="buttons" id="btn-rock" value="rock"><img src="images/rock-h.png" alt="rock-hand"></button>
+        <button class="buttons" id="btn-scissor" value="scissors"><img  src="images/scissors.png" alt="scissors-hand"></button>
+        
+        <audio id="audio" src="sound/sound-effect.mp3"></audio>
+       </div>  
+
+      <div class="theResult">
+        <h1 class="test" id="win">You are the winner!!</h1>
+        <h1 class="test" id="lose">The computer is the winner!</h1>
+        <h1 class="test"  id="tie">Tie</h1>
+        </div>
+        
+        <div>
+            <h2>Computer</h2>
+            <div class="imgdiv"><img id="randimg" src="" alt=""></div>
+        </div>
+   
+    </div>
+
+    
+    
+<script src="main.js"></script> 
+
+</body>
+</html>
